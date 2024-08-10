@@ -1,0 +1,21 @@
+:root {
+  --text-align: center;
+  --primary-color: white;
+  --secondary-color: #ffe700;
+}
+
+body {
+  background: linear-gradient(
+    -20deg,
+    rgb(233, 222, 250) 0%,
+    rgb(251, 252, 219) 100%
+  );
+}
+
+h1 {
+  text-align: var(--text-align);
+}
+
+p {
+  text-align: var(--text-align);
+}
